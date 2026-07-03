@@ -41,7 +41,7 @@ mysql -u root gestion_salle < database/migrations/2026_07_02_add_user_photo.sql
 
 ## Comptes de test
 
-Tous utilisent le mot de passe `password`.
+Tous utilisent le mot de passe `1234`.
 
 - Administrateur : `admin@univ.test`
 - Bibliothecaire : `luc@univ.test`
