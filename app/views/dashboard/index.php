@@ -12,7 +12,7 @@
 <div class="row g-4">
     <div class="col-lg-8">
         <div class="panel">
-            <div class="panel-title">Réservationsaaaaa par mois</div>
+            <div class="panel-title">Réservationsaaaa par mois</div>
             <canvas id="monthlyChart" data-labels='<?= e(json_encode(array_column($monthlyStats, 'mois'))) ?>' data-values='<?= e(json_encode(array_map('intval', array_column($monthlyStats, 'total')))) ?>'></canvas>
         </div>
     </div>
